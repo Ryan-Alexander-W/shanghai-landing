@@ -1,0 +1,35 @@
+.container-card {
+ max-width: 500px;
+ margin: 0px auto;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+
+  position: relative;
+  height: 275px;
+  width: 300px;
+  color: white;
+  border-radius: 3px;
+  flex: 1 1 auto;
+  margin: 10px;
+  border-radius: 1px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-position: center;
+    background-size: cover;
+
+}
+
+.card-body {
+  position: relative;
+  height: 200px;
+
+}
