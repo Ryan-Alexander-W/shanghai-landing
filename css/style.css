@@ -1,0 +1,23 @@
+/* Importing all components file */
+@import url("components/navbar.css");
+@import url("components/avatar.css");
+
+
+
+/* General style rules for fonts and colors */
+body {
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3 {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+
+
