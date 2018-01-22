@@ -9,7 +9,7 @@
 
 
 header {
-  background-color: rgb(211, 198, 198);
+  background-color: rgba(77, 89, 103, 1);
 }
 
 header::after {
@@ -42,7 +42,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #444;
+  opacity: 0.7;
 }
 
 nav a::before {
@@ -50,7 +50,7 @@ nav a::before {
   display: block;
   height: 5px;
   width: 0%;
-  background-color: #444;
+  background-color: red;
   position: absolute;
   top: 0;
   transition: all ease-in-out 200ms;
