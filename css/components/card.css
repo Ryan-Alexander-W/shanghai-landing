@@ -1,22 +1,27 @@
 .container-card {
  max-width: 500px;
  margin: 0px auto;
+ display: flex;
+ justify-content: space-around;
+     padding-bottom: 100px;
+
 }
 
 .cards {
-  display: flex;
-  justify-content: space-around;
+
+  align-items: center;
 }
 
 .card {
+  padding: 50px;
 
   position: relative;
-  height: 275px;
+  height: 210px;
   width: 300px;
   color: white;
   border-radius: 3px;
   flex: 1 1 auto;
-  margin: 10px;
+  margin: 20px;
   border-radius: 1px;
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
   transition: all 0.3s ease;
@@ -24,7 +29,8 @@
   flex-direction: column;
   justify-content: space-between;
   background-position: center;
-    background-size: cover;
+  background-size: cover;
+
 
 }
 
@@ -32,4 +38,13 @@
   position: relative;
   height: 200px;
 
+}
+
+.card-content {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 300px;
+  /*display: flex;
+  flex-direction: column;
+  justify-content: center;*/
 }
